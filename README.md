@@ -2,7 +2,9 @@ This repository contains a dual stack APN Apple Configuration Profile (`.mobilec
 
 ## Overview
 
-Modern "Carrier Bundle" updates from EE often provision devices with an IPv6-only connection. This profile overrides the default settings to force a **Dual-Stack (IPv4 and IPv6)** connection. This configuration resolves compatibility issues with legacy applications, certain VPN services, and specific gaming platforms that still require IPv4 connectivity.
+Modern "Carrier Bundle" updates from EE often provision devices with an IPv6-only connection. This profile overrides the default settings to force a **Dual-Stack (IPv4 and IPv6)** connection. This configuration resolves compatibility issues with legacy applications, certain VPN services, and specific gaming platforms that still require IPv4 connectivity (eg hotspotting PSP).
+
+Whilst all other profiles I have seen fully disable IPv6, this runs both the newer IPv6 and older IPv4 at once.
 
 It also includes a robust configuration for Multimedia Messaging Service (MMS).
 
