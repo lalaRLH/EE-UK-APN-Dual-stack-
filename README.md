@@ -36,8 +36,8 @@ Configures settings required for sending and receiving picture messages (MMS).
 
 ## Installation
 
-1.  Download the `EE-Dual-Stack.mobileconfig` file. May need to download as Zip, unzip in files app, then open mobileconfig file (as apples removed ability to load profile by clicking "RAW."
-2.  Open the file on your iOS/iPadOS device.
+1.  Download the 'EEdualstackAPN.mobileconfig' file. 
+2.  Open the file from the Files app on your iOS/iPadOS device.
 3.  Go to **Settings > General > VPN & Device Management** to install the profile.
 
 ## Compatibility
